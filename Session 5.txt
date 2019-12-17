@@ -1,0 +1,30 @@
+session 5 :::
+
+
+Session :
+
+XAMPP
+setup windows=setup setup ...
+or
+linux =
+
+wordpress
+display wmware from task manager
+open xampp ==> start Apache and MySQL
+move wordpress to htdocs
+open localhost/wordpress
+start
+open localhost
+choose phpadmin ==> new ==> write name and click done
+
+
+
+https://themeforest.net/category/wordpress?sort=sales&view=grid?ref=wpfoo&gclid=EAIaIQobChMItvyspq-82wIVlZ3VCh31qQzwEAAYAiAAEgI0KPD_BwE
+
+to give a bug : https://detectify.com/
+
+to search bug : http://rips-scanner.sourceforge.net/
+
+to search ips :angry ip scanner-Advanced ip scanner
+
+CTF : https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a

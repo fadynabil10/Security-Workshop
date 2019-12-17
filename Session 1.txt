@@ -1,0 +1,72 @@
+session 1 :::
+user agent 
+
+sublisster
+sudo apt-get install git
+git clone git
+git clone https://github.com/aboul3la/sublist3r git
+pwd
+ls
+cd git
+ls
+sudo apt-get python-pip
+sudo apt-get install python-pip
+pip install -r requirements.txt
+python sublist3r.py -d facebook.com
+
+0day.today? : sell pugs
+
+lazyrecon : get information
+
+xampp : php
+
+HTTP = Hypear text tranfer protocal
+HTTPS = secure
+
+plain-text = ãİíÔ ÊÔİíÑ
+vuln = ËÛÑå
+exploit = ÇÓÊÛáÇá
+proof of concept = PDC ÇËÈÊáì ÚãáÊ Ïå ÇÒÇì 
+0day = ËÛÑÉ ãÔ ãÚ ÍÏ ÛíÑß
+Intercept = ÇÚÊÑÖ
+MITM = åÌæã ÇáÑÇÌá Çááì İì ÇáäÕ
+honupot = ãÕíÏå
+script kide = (ÈÊæÚ ÇáÏÚÓ) ãæŞÚ áÇÎÊÑÇŞ ÇáİíÓ Èæß ååååå
+sandbox = ÈíÆå ááÊÌÑÈå
+ReadTeam : äÇÓ İì ßá ãÌÇáÇÊ ÇáÊÇãíä íÚãáæÇ ãÚ ÈÚÖ áßÔİ ÇáËÛÑÇÊ Úáì ÇáäÙÇã ßÇãá
+BlueTeam : 
+
+White = ÇáÇÎáÇŞì
+Gray = ÇáÈíä Èäíä
+Black =
+
+ãÌÇáÇÊ ÇáÓßíæÑÊì:
+web application security = ÈíÎÊÑŞ ãæÇŞÚ
+Reverse Enginnering = ÈíÚãá İíÑæÓÇÊ æ ÈíÍáá İíÑæÓÇÊ
+obile security = software + hardware =
+Network Security =
+Forinces = ÇáÊÍŞíŞ ÇáÌäÇÆì ÇáÑŞãì = CSI:Cybe
+
+ÔåÇÏÇÊ :
+PWK = OSCP = Pentesting Lab = 900$
+CEH = 
+
+ÇäæÇÚ ÇáÈÌ :
+Technical Bug
+Logic Bugs
+Privacy Bugs
+
+wireshark
+
+Burp suite
+
+page ask developer podcast
+bug bengamen bypass
+
+Next sesssion ::
+Bruteforcing
+subdomain Takerover
+OWASP
+
+Clickjacking
+open R

@@ -1,0 +1,36 @@
+session 3 :::
+
+
+Session :
+
+R3:
+
+https://github.com/xl7dev/WebShell
+
+cat /etc/password
+cat /etc/shadow
+
+<?php system("is") ?>
+
+bwapp
+ifconfig
+
+-unrestricted file upload
+this not upload php/python but i try upload this extantion
+low code php
+mediam .php 1-->7 phtml
+high .php.jpg or .php.gif or wso.php.png
+how to upload file php nullbyte
+exif data -->xss
+svg --> xss
+xss.swf from github
+
+-xss - reflected (Get)
+alert
+
+beef project
+
+-xss - stored (Blog)
+alert
+
+xss high : jsfuck

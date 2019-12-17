@@ -1,0 +1,106 @@
+session 2 :::
+
+Revision :
+Subdomin
+www.google.com
+A record
+
+2 way = Google Dorks
+        site:*.twitter.com
+
+        filetype:php
+
+https:// ==> protocol
+
+google.com ==> Domin Name
+
+https://google.com/hacker/ ==> Directory
+
+https://google.com/hacker/index.php? ==> parameter
+
+payload ==> Attacker Vector 
+
+Bugs = Logic Bugs
+       Code's Bugs
+
+facebook.com 2500$ invite friend Bug
+phwd
+twitter 250 key ==> 500 key
+Uber = wkcaj
+Facebook.com/share.php
+
+java -jar burp.jar ==> in ubuntu to setup burp
+
+Session :
+
+download owasp
+
+foxyproxy
+
+eset.com to find bugs
+
+dirbuster is guss name file of website
+
+OWASP Top 10 :=
+- clickjacking = ÂÃÊ„ Œÿ› «·‰ﬁ—« 
+<html>
+<body>
+<iframe src="https://www.youm7.com/" ></iframe>
+</body>
+</html>
+http://samy.pl/quickjack/
+
+·Ê „‘ „ÊÃÊœÂ Ì»ﬁÏ „’«» = x=frame options ==> in burp ==> Response
+
+php
+.htaceses
+
+robots
+Google Webmaster
+sitemap.xml
+
+Response Code
+200 ok = True ‰ÃÕ
+301 = Redirect
+404 = Not Found
+500 = Internal
+
+- unvalidate Redirect
+
+solution ==> whitelist
+if attacker create phishing website like addthis
+i can takeover this account
+
+- Rate Limte
+try 10 or much mail in regist
+
+- CDN = Content Delivery Network
+Fastly
+not upload -> ASP - PHP - Python - Ruby
+
+LoadBlance = 
+
+
+- No Auth Login :D
+
+when i don't put else
+
+<?php
+ if { login == auth}
+     admin.php
+     else
+
+to search ->
+Inurl:/admin?login.php
+intitle:" „ «·œ⁄”"
+site:google.com
+site:*google.com
+filetype:php
+
+
+
+Tool:
+Sublist3r = subdommain
+Dirbuster = Hidden path
+dirsearch = //
+dirsearch -t hgh -e
